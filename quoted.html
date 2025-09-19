@@ -1,7 +1,0 @@
-{% extends "layout.html" %}
-{% block main %}
-<h2>Quote</h2>
-<p><strong>{{ quote.name }}</strong> ({{ quote.symbol }})</p>
-<p>Price: {{ quote.price | usd }}</p>
-<a class="btn btn-secondary" href="/quote">Lookup another</a>
-{% endblock %}
